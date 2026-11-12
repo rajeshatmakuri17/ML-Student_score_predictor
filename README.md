@@ -1,4 +1,4 @@
-echo "# Student Exam Score Predictor
+# Student Exam Score Predictor
 
 ## 📌 Overview
 This project predicts student exam scores based on study habits and lifestyle factors. It demonstrates the end-to-end ML workflow: data preprocessing, feature engineering, model training, evaluation, visualization, and hyperparameter tuning.
@@ -24,10 +24,25 @@ Synthetic dataset with 1000 rows, including:
 - Git + GitHub
 
 ## ⚙️ Setup Instructions
-1. Clone the repository
-2. Create virtual environment
-3. Install dependencies with requirements.txt
-4. Run the notebook
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rajeshatmakuri17/ML-Student_score_predictor.git
+   cd ML-Student_score_predictor
+   ```
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+   On Windows:
+   ```bash
+   venv\Scripts\activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Open and run `student_score_predictor.ipynb` in Jupyter Notebook or VS Code.
 
 ## 📊 Results
 - MAE: ~2–5
@@ -48,4 +63,4 @@ Synthetic dataset with 1000 rows, including:
 - Full Dataset Predictions (1000 points)
 
 ## 🔑 Key Takeaways
-Strong portfolio project demonstrating ML workflow, tuning, and visualization." > README.md
+Strong portfolio project demonstrating ML workflow, tuning, and visualization.
